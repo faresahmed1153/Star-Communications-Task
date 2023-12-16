@@ -1,7 +1,7 @@
-﻿using Stars_Communication.Core.Models.Identity;
-using Stars_Communication.Core.Repositories;
+﻿using Star_Communications.Core.Models.Identity;
+using Star_Communications.Core.Repositories;
 
-namespace Stars_Communication.Repository.Repositories
+namespace Star_Communications.Repository.Repositories
 {
 	public class UserRepository : IUserRepository
 	{

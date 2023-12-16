@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Stars Communication.Core\Stars Communication.Core.csproj" />
+    <ProjectReference Include="..\Stars Communication.Core\Star Communications.Core.csproj" />
   </ItemGroup>
 
 </Project>

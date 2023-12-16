@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Stars_Communication.APIs.Controllers
+namespace Star_Communications.APIs.Controllers
 {
 	[Route("api/[controller]")]
 	[ApiController]

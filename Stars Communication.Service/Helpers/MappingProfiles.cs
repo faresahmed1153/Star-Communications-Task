@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Models.Identity;
+using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Models;
+using Star_Communications.Core.Models.Identity;
 
-namespace Stars_Communication.Service.Helpers
+namespace Star_Communications.Service.Helpers
 {
 	public class MappingProfiles : Profile
 	{

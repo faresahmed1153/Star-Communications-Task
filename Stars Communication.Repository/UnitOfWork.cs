@@ -1,10 +1,10 @@
-﻿using Stars_Communication.Core;
-using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Repositories;
-using Stars_Communication.Repository.Repositories;
+﻿using Star_Communications.Core;
+using Star_Communications.Core.Models;
+using Star_Communications.Core.Repositories;
+using Star_Communications.Repository.Repositories;
 
 
-namespace Stars_Communication.Repository
+namespace Star_Communications.Repository
 {
 	public class UnitOfWork : IUnitOfWork
 	{

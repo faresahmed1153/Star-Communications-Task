@@ -1,8 +1,8 @@
 ﻿using System.Net;
 using System.Text.Json;
-using Stars_Communication.APIs.Errors;
+using Star_Communications.APIs.Errors;
 
-namespace Stars_Communication.APIs.Middlewares
+namespace Star_Communications.APIs.Middlewares
 {
 	public class ExceptionMiddleware
 	{

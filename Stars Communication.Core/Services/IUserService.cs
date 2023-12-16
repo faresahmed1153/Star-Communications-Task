@@ -1,6 +1,6 @@
-﻿using Stars_Communication.Core.Dtos;
+﻿using Star_Communications.Core.Dtos;
 
-namespace Stars_Communication.Core.Services
+namespace Star_Communications.Core.Services
 {
 	public interface IUserService
 	{

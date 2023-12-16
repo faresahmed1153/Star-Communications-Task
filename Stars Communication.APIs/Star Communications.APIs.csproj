@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Stars Communication.Service\Stars Communication.Service.csproj" />
+    <ProjectReference Include="..\Stars Communication.Service\Star Communications.Service.csproj" />
   </ItemGroup>
 
 </Project>

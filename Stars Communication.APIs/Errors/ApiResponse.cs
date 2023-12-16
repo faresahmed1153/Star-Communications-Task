@@ -1,4 +1,4 @@
-﻿namespace Stars_Communication.APIs.Errors
+﻿namespace Star_Communications.APIs.Errors
 {
 	public class ApiResponse
 	{

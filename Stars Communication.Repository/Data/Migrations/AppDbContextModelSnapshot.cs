@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Stars_Communication.Repository;
+using Star_Communications.Repository;
 
 #nullable disable
 
-namespace Stars_Communication.Repository.Data.Migrations
+namespace Star_Communications.Repository.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -154,7 +154,7 @@ namespace Stars_Communication.Repository.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.Identity.ApplicationUser", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.Identity.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("text");
@@ -222,7 +222,7 @@ namespace Stars_Communication.Repository.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.Tweet", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.Tweet", b =>
                 {
                     b.Property<int>("TweetId")
                         .ValueGeneratedOnAdd()
@@ -250,7 +250,7 @@ namespace Stars_Communication.Repository.Data.Migrations
                     b.ToTable("Tweets");
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.UserFollow", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.UserFollow", b =>
                 {
                     b.Property<string>("FollowerId")
                         .HasColumnType("text");
@@ -276,7 +276,7 @@ namespace Stars_Communication.Repository.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", null)
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -285,7 +285,7 @@ namespace Stars_Communication.Repository.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", null)
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -300,7 +300,7 @@ namespace Stars_Communication.Repository.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", null)
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -309,16 +309,16 @@ namespace Stars_Communication.Repository.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", null)
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.Tweet", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.Tweet", b =>
                 {
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", "User")
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", "User")
                         .WithMany("Tweets")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -327,15 +327,15 @@ namespace Stars_Communication.Repository.Data.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.UserFollow", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.UserFollow", b =>
                 {
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", "Follower")
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", "Follower")
                         .WithMany("Followings")
                         .HasForeignKey("FollowerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Stars_Communication.Core.Models.Identity.ApplicationUser", "Following")
+                    b.HasOne("Star_Communications.Core.Models.Identity.ApplicationUser", "Following")
                         .WithMany("Followers")
                         .HasForeignKey("FollowingId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -346,7 +346,7 @@ namespace Stars_Communication.Repository.Data.Migrations
                     b.Navigation("Following");
                 });
 
-            modelBuilder.Entity("Stars_Communication.Core.Models.Identity.ApplicationUser", b =>
+            modelBuilder.Entity("Star_Communications.Core.Models.Identity.ApplicationUser", b =>
                 {
                     b.Navigation("Followers");
 

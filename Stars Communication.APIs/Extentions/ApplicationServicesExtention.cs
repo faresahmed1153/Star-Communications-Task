@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Stars_Communication.APIs.Errors;
-using Stars_Communication.Core;
-using Stars_Communication.Core.Services;
-using Stars_Communication.Repository;
-using Stars_Communication.Service;
-using Stars_Communication.Service.Helpers;
+using Star_Communications.APIs.Errors;
+using Star_Communications.Core;
+using Star_Communications.Core.Services;
+using Star_Communications.Repository;
+using Star_Communications.Service;
+using Star_Communications.Service.Helpers;
 
-namespace Stars_Communication.APIs.Extentions
+namespace Star_Communications.APIs.Extentions
 {
 	public static class ApplicationServicesExtention
 	{

@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using Stars_Communication.APIs.Extentions;
-using Stars_Communication.APIs.Middlewares;
-using Stars_Communication.Repository;
+using Star_Communications.APIs.Extentions;
+using Star_Communications.APIs.Middlewares;
+using Star_Communications.Repository;
 using System.Text.Json.Serialization;
 
-namespace Stars_Communication.APIs
+namespace Star_Communications.APIs
 {
 	public class Program
 	{

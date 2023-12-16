@@ -1,4 +1,4 @@
-﻿namespace Stars_Communication.APIs.Extentions
+﻿namespace Star_Communications.APIs.Extentions
 {
 	public static class SwaggerServicesExtention
 	{

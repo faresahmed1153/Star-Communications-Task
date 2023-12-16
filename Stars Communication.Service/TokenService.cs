@@ -4,10 +4,10 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Stars_Communication.Core.Models.Identity;
-using Stars_Communication.Core.Services;
+using Star_Communications.Core.Models.Identity;
+using Star_Communications.Core.Services;
 
-namespace Stars_Communication.Service
+namespace Star_Communications.Service
 {
 	public class TokenService : ITokenService
 	{

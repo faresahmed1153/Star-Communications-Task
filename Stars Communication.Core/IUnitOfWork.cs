@@ -1,7 +1,7 @@
-﻿using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Repositories;
+﻿using Star_Communications.Core.Models;
+using Star_Communications.Core.Repositories;
 
-namespace Stars_Communication.Core
+namespace Star_Communications.Core
 {
 	public interface IUnitOfWork : IAsyncDisposable
 	{

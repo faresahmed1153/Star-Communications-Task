@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 
-namespace Stars_Communication.Core.Dtos
+namespace Star_Communications.Core.Dtos
 {
 
 

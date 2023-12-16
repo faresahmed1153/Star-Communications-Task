@@ -1,7 +1,7 @@
-﻿using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Models;
+﻿using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Models;
 
-namespace Stars_Communication.Core.Repositories
+namespace Star_Communications.Core.Repositories
 {
 	public interface IUserFollowRepository<T> : IGenericRepository<T> where T : UserFollow
 	{

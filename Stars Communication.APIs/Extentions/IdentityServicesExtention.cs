@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
-using Stars_Communication.Core.Models.Identity;
-using Stars_Communication.Core.Services;
-using Stars_Communication.Repository;
-using Stars_Communication.Service;
+using Star_Communications.Core.Models.Identity;
+using Star_Communications.Core.Services;
+using Star_Communications.Repository;
+using Star_Communications.Service;
 using System.Text;
 
-namespace Stars_Communication.APIs.Extentions
+namespace Star_Communications.APIs.Extentions
 {
 	public static class IdentityServicesExtention
 	{

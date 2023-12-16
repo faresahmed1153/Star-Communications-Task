@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Stars_Communication.Core.Models.Identity;
+using Star_Communications.Core.Models.Identity;
 
-namespace Stars_Communication.Core.Services
+namespace Star_Communications.Core.Services
 {
 	public interface ITokenService
 	{

@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Stars_Communication.APIs.Errors;
-using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Services;
+using Star_Communications.APIs.Errors;
+using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Services;
 using System.Security.Claims;
 
-namespace Stars_Communication.APIs.Controllers
+namespace Star_Communications.APIs.Controllers
 {
 	[Authorize]
 	public class TweetsController : BaseApiController

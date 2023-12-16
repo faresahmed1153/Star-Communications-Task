@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Models.Identity;
+using Star_Communications.Core.Models;
+using Star_Communications.Core.Models.Identity;
 using System.Reflection;
 
-namespace Stars_Communication.Repository
+namespace Star_Communications.Repository
 {
 	public class AppDbContext : IdentityDbContext<ApplicationUser>
 	{

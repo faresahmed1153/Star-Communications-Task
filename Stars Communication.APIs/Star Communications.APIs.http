@@ -1,0 +1,6 @@
+@Star_Communications.APIs_HostAddress = http://localhost:5164
+
+GET {{Star_Communications.APIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

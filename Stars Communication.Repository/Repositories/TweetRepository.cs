@@ -1,7 +1,7 @@
-﻿using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Repositories;
+﻿using Star_Communications.Core.Models;
+using Star_Communications.Core.Repositories;
 
-namespace Stars_Communication.Repository.Repositories
+namespace Star_Communications.Repository.Repositories
 {
 	public class TweetRepository<T> : IGenericRepository<T> where T : Tweet
 	{

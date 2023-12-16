@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Stars_Communication.Core;
-using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Services;
+using Star_Communications.Core;
+using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Models;
+using Star_Communications.Core.Services;
 
-namespace Stars_Communication.Service
+namespace Star_Communications.Service
 {
 	public class TweetService : ITweetService
 	{

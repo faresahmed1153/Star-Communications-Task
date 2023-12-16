@@ -1,6 +1,6 @@
-﻿using Stars_Communication.Core.Models.Identity;
+﻿using Star_Communications.Core.Models.Identity;
 
-namespace Stars_Communication.Core.Models
+namespace Star_Communications.Core.Models
 {
 	public class Tweet
 	{

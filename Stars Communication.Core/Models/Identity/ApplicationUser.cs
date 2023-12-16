@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
 
-namespace Stars_Communication.Core.Models.Identity
+namespace Star_Communications.Core.Models.Identity
 {
 	public class ApplicationUser : IdentityUser
 	{

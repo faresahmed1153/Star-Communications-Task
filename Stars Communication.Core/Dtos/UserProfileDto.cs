@@ -1,4 +1,4 @@
-﻿namespace Stars_Communication.Core.Dtos
+﻿namespace Star_Communications.Core.Dtos
 {
 	public class UserProfileDto
 	{

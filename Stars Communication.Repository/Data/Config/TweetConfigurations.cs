@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Stars_Communication.Core.Models;
+using Star_Communications.Core.Models;
 
-namespace Stars_Communication.Repository.Data.Config
+namespace Star_Communications.Repository.Data.Config
 {
 	public class TweetConfigurations : IEntityTypeConfiguration<Tweet>
 	{

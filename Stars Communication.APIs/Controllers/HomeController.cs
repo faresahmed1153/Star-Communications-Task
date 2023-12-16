@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Services;
+using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Services;
 using System.Security.Claims;
 
-namespace Stars_Communication.APIs.Controllers
+namespace Star_Communications.APIs.Controllers
 {
 
 	public class HomeController : BaseApiController

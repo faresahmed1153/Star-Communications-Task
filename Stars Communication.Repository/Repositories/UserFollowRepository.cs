@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Stars_Communication.Core.Dtos;
-using Stars_Communication.Core.Models;
-using Stars_Communication.Core.Repositories;
+using Star_Communications.Core.Dtos;
+using Star_Communications.Core.Models;
+using Star_Communications.Core.Repositories;
 
-namespace Stars_Communication.Repository.Repositories
+namespace Star_Communications.Repository.Repositories
 {
 	public class UserFollowRepository<T> : IUserFollowRepository<T> where T : UserFollow
 	{
